@@ -1,0 +1,82 @@
+footer {
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom right, #1f05e3ef, #04000635);
+}
+
+.left-right-footer-form {
+    display: flex;
+    padding: 50px;
+}
+
+.left-footer {
+    width: 50%;
+}
+
+.right-footer {
+    width: 50%;
+}
+
+.form-title h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+#send-button {
+    width: 70%;
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid white;
+    font-size: 30px;
+}
+
+#title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#email {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#number {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.fb {
+    text-align: left;
+}
+
+@media only screen and (min-width:200px) and (max-width:800px) {}

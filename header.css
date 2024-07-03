@@ -1,0 +1,170 @@
+.header-container {
+    height: 100%;
+    background-image: url("./images/banner/bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.nav {
+    padding-top: 20px;
+    /* margin: 40px 20px; */
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    color: var(--font-primary-colour);
+    font-style: normal;
+    font-size: 36px;
+}
+
+#right {
+    width: 216px;
+    text-align: right;
+}
+
+#left {
+    width: 216px;
+}
+
+.banner-title h1 {
+    padding: 0px 20px;
+    font-size: 152px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    margin: 40px 0px;
+}
+
+.banner-description {
+    padding: 0px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 40px 0px;
+}
+
+.banner-profile-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--font-primary-colour);
+    border-bottom: 1px solid var(--font-primary-colour);
+}
+
+.banner-profile-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+}
+
+.work-icon-container {
+    margin: 40px 20px;
+    display: flex;
+    gap: 14px;
+    padding: 0px 20px;
+    border-bottom: 1px solid white;
+}
+
+/* .work-icon-container h1{
+    color: #BA0BF9;
+} */
+ 
+.check-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.banner-image-container {
+    /* background-color: var(--primary-colour); */
+    width: fit-content;
+}
+
+#banner-image {
+    height: 330px;
+}
+
+.achievement-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-container h1 {
+    color: #BA0BF9;
+    font-size: 152px;
+}
+
+.project-container p {
+    color: #BA0BF9;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.experience-container h1 {
+    color: #BA0BF9;
+    font-size: 152px;
+}
+
+.experience-container p {
+    color: #BA0BF9;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.experience-container h1 {
+    color: #BA0BF9;
+    font-size: 152px;
+}
+
+.experience-container p {
+    color: #BA0BF9;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.agencies-container h1 {
+    color: #BA0BF9;
+    font-size: 152px;
+}
+
+.agencies-container p {
+    color: #BA0BF9;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.client-container h1 {
+    color: #BA0BF9;
+    font-size: 152px;
+}
+
+.client-container p {
+    color: #BA0BF9;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/* This is media query for mobile responsive. */
+@media only screen and (min-width:200px) and (max-width:640px) {
+    .container {
+        padding: 0px 0px;
+    }
+
+    .nav {
+        font-size: 16px;
+    }
+
+    .achievement-container {
+        flex-direction: column;
+    }
+
+    .banner-profile-container {
+        flex-direction: column;
+    }
+
+    .banner-image-container {
+        width: 100%;
+    }
+
+    .banner-title h1 {
+        font-size: 25px;
+    }
+}
