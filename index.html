@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./header.css" />
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./script.js" />
 </head>
 
 <body class="container">
@@ -345,12 +346,12 @@
                             <h1>// wanna work together?</h1>
                         </div>
 
-                        <form class="form">
-                            <input class="input" type="text" placeholder="YOUR NAME" />
-                            <input class="input" type="email" placeholder="YOUR EMAIL" />
-                            <input style="margin-top: 70px;" class="input" type="text" placeholder="YOUR MESSAGE" />
+                        <form onsubmit="handleContact(event)" class="form">
+                            <input class="input" type="text" name="name" placeholder="YOUR NAME" />
+                            <input class="input" type="email" name="email" placeholder="YOUR EMAIL" />
+                             <input style="margin-top: 70px;" class="input" type="text" name="message" placeholder="YOUR MESSAGE" />
 
-                            <button id="send-button">SEND</button>
+                            <button type="submit" id="send-button">SEND</button>
                         </form>
 
                     </div>
